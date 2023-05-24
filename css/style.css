@@ -3782,10 +3782,7 @@ h6 {
   cursor: pointer;
 }
 
-.projects_item .projects_text p {
-  margin-bottom: 0px;
-  font-size: 14px;
-}
+
 
 .projects_item:hover:before {
   opacity: 1;
@@ -3796,6 +3793,12 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.projects_item .projects_text h4{
+  color: transparent !important;
+}
+
+.project
 
 /* End Projects Area css
 ============================================================================================ */
@@ -4071,4 +4074,3 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
-

@@ -300,15 +300,3 @@
     }
 
 })(jQuery)
-
-
-const username = "USERNAME"; // Replace with your GitHub username or organization name
-const apiUrl = `https://api.github.com/users/${anshulsoni2010}`;
-
-fetch(apiUrl)
-  .then(response => response.json())
-  .then(data => {
-    const repoCount = data.public_repos; // Get the number of public repositories
-    document.getElementById("repo").textContent = repoCount; // Set the text content of the element with id "repo"
-  })
-  .catch(error => console.error(error));
